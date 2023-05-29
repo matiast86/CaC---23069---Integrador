@@ -19,19 +19,9 @@ section {
 
 .card {
     padding: 5vw 5vh;
-    border-color: blue !important;
 }
 
-.bg-img {
-    background-image: url(../img/ba1.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-    text-align: right;
-}
+
 
 .margin-padding { 
     padding: 200px 150px;
@@ -54,4 +44,8 @@ section {
     width: 140px;
     height: 40px;
     word-wrap: break-word;
+  }
+
+  #precio {
+    background-color: aqua;
   }
