@@ -19,6 +19,7 @@ section {
 
 .card {
     padding: 5vw 5vh;
+    border-color: blue !important;
 }
 
 .bg-img {
@@ -54,9 +55,3 @@ section {
     height: 40px;
     word-wrap: break-word;
   }
-
-  #orador {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-}

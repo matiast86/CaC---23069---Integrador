@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    background-color: rgb(53, 58, 64)!important;
+}
+
+section {
+    display: block;
+}
+
+#navbarNav {
+    justify-content: end;
+}
+
+
+.card {
+    padding: 5vw 5vh;
+}
+
+
+
+.margin-padding { 
+    padding: 200px 150px;
+}
+
+#cards {
+    -ms-flex-align: center;
+}
+
+.footer{
+    margin-top: 1vh;
+    align-items: center;
+    padding: 2Vh 15vh;
+    background-color: rgb(53, 58, 64)!important;
+  }
+  
+  .btn-footer{
+    font-size: 16px;
+    color: white;
+    width: 140px;
+    height: 40px;
+    word-wrap: break-word;
+  }
+
+  #precio {
+    background-color: aqua;
+  }
