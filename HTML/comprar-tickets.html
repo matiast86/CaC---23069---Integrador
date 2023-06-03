@@ -87,13 +87,13 @@
           <div class="form-check-inline" id="formulario">
             <div class="row text-start">
               <div class="col-md-6 mt-2 mb-1">
-                <input type="text" class="form-control" placeholder="Nombre">
+                <input type="text" class="form-control" id="firstName" placeholder="Nombre">
               </div>
               <div class="col-md-6 mt-2 mb-1">
-                <input type="text" class="form-control" placeholder="Apellido">
+                <input type="text" class="form-control" id="lastName" placeholder="Apellido">
               </div>
               <div class="col-md-12 mt-2">
-                <input type="email" class="form-control mb-0" placeholder="correo">
+                <input type="email" class="form-control mb-0" id="email" placeholder="correo">
               </div>
               <div class="col-md-6 mt-2 mb-1">
                 <label>Cantidad</label>
@@ -102,7 +102,7 @@
               <div class="col-md-6 mt-2 mb-1">
                 <label>Categoría</label>
                 <select id="categoria" onchange="identificarAsistente()">
-                  <option>Seleccione la opción correcta</option>
+                  <option selected class="text-muted">Seleccione la opción correcta</option>
                   <option value="estudiante" id="estudiante">Estudiante</option>
                   <option value="trainee" id="trainee">Trainee</option>
                   <option value="junior" id="junior">Junior</option>
@@ -115,7 +115,7 @@
             </div>
             <div class="row">
               <div class="col-md-6 col-12">
-                <button type="button" class="btn btn-success w-100 m-0 p-0" onclick="borrarFormulario()">Borrar</button>
+                <button type="reset" class="btn btn-success w-100 m-0 p-0" onclick="borrarFormulario()">Borrar</button>
               </div>
               <div class="col-md-6 col-12">
                 <button type="button" class="btn btn-success w-100 m-0 p-0" onclick="calcularDescuento()">Resumen</button>

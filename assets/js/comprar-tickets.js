@@ -51,9 +51,21 @@ function calcularDescuento() {
         case 'junior':
             total = unaCantidad * (200 * 0.85);
             break;
+        default:
+            break;
     }
     //apuntador al precio
     const apuntarPrecio = document.getElementById('totalAPagar');
     apuntarPrecio.innerHTML = total
+}
+
+//borrar formulario
+const borrarFormulario = () => {
+    firstName.value = "";
+    lastName.value = "";
+    email.value = "";
+    categoria.value = "";
+    cantidad.value = "";
+    totalAPagar.value = "";
 }
 
