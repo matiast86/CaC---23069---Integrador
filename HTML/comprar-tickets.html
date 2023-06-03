@@ -84,7 +84,7 @@
             <p class="mt-2 mb-0 p-0">Venta</p>
             <h2 class="mb-2 text-uppercase p-0">VALOR DE TICKET $200</h2>
           </div>
-          <div class="form-check-inline">
+          <div class="form-check-inline" id="formulario">
             <div class="row text-start">
               <div class="col-md-6 mt-2 mb-1">
                 <input type="text" class="form-control" placeholder="Nombre">
@@ -101,8 +101,11 @@
               </div>
               <div class="col-md-6 mt-2 mb-1">
                 <label>Categoría</label>
-                <select id="categoria">
-                    
+                <select id="categoria" onchange="identificarAsistente()">
+                  <option>Seleccione la opción correcta</option>
+                  <option value="estudiante" id="estudiante">Estudiante</option>
+                  <option value="trainee" id="trainee">Trainee</option>
+                  <option value="junior" id="junior">Junior</option>
                 </select>
               </div>
             </div>
@@ -112,10 +115,10 @@
             </div>
             <div class="row">
               <div class="col-md-6 col-12">
-                <button type="button" class="btn btn-success w-100 m-0 p-0">Borrar</button>
+                <button type="button" class="btn btn-success w-100 m-0 p-0" onclick="borrarFormulario()">Borrar</button>
               </div>
               <div class="col-md-6 col-12">
-                <button type="button" class="btn btn-success w-100 m-0 p-0">Resumen</button>
+                <button type="button" class="btn btn-success w-100 m-0 p-0" onclick="calcularDescuento()">Resumen</button>
               </div>
             </div>
           </div>
